@@ -24,7 +24,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.notes"
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 34
+    
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -65,3 +66,7 @@ flutter {
 }
 
 dependencies {}
+
+
+//  compileSdkVersion flutter.compileSdkVersion
+
